@@ -2,7 +2,7 @@
 //  - Check if input is a valid number, else display an error message
 //  - Setup testing
 //  - Better styling - flexbox?
-//  - Responisive design
+//  - Responsive design
 
 
 const form = document.querySelector('form');
