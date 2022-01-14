@@ -25,11 +25,11 @@ body {
 }
 
 #main {
-  padding: 2em;
+  padding: 2rem;
 }
 
 p {
-  font-size: 1.15em;
+  font-size: 1.15rem;
 }
 
 button {
@@ -56,4 +56,14 @@ select {
   border-radius: 3px;
   padding: 5px;
   height: 3em;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+
+  .card {
+    box-shadow: none;
+  }
 }
